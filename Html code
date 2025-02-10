@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Shruti Pandit</h1>
+            <nav>
+                <ul>
+                    <li><a href="I am an third year engineering student at Matoshri College Of Engineering. I am an proficient Frontend developer looking for an internship to apply my technical skills , collaborate on innovative projects , and gain hands-on experience on Dynamic tech development. ">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Shruti Pandit, a passionate web developer with expertise in front-end and back-end technologies. I enjoy creating beautiful and functional websites that enhance user experience.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                
+                <h3>Spotify Clone</h3>
+                <p>I am an third year engineering student at Matoshri College Of Engineering. I am an proficient Frontend developer looking for an internship to apply my technical skills , collaborate on innovative projects , and gain hands-on experience on Dynamic tech development. </p>
+            </div>
+            <div class="project-card">
+               
+                <h3>Real Time Chat Application</h3>
+                <p>Real-time chat applications are designed to provide a responsive and interactive experience, where messages are delivered and displayed immediately as they are sent. This means that users can engage in conversations and receive updates in real-time, without significant delays.</p>
+            </div>
+            <div class="project-card">
+                
+                <h3>Quiz Application</h3>
+                <p>Dynamic Quiz Questions & Timer which Loads multiple-choice questions dynamically with a 30-second countdown per question.
+                    Real-Time Score Updates which Tracks and updates the score instantly for correct answers, keeping users engaged.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
